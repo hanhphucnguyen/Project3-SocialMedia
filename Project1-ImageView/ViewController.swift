@@ -30,8 +30,8 @@ class ViewController: UITableViewController {
             }
            
         }
-//       pictures.sort()
-         print(pictures)
+         pictures.sort()
+//         print(pictures)
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -40,7 +40,8 @@ class ViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
-        cell.textLabel?.text = pictures[indexPath.row]
+//        cell.textLabel?.text = pictures[indexPath.row]
+        cell.textLabel?.text = "Picture \(indexPath.row+1) of \(pictures.count)"
         return cell
     }
     
