@@ -1,4 +1,4 @@
 # Project1-ImageView
 
-*My 1st swift project
-*Description: View Image sample code
+1. My 1st swift project
+2. Description: View Image sample code
