@@ -31,7 +31,7 @@ class ViewController: UITableViewController {
            
         }
          pictures.sort()
-//         print(pictures)
+         print(pictures)
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
